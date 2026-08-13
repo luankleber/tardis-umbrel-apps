@@ -1,0 +1,41 @@
+manifestVersion: 1
+
+id: tardis-pkvault
+
+name: PKVault
+
+tagline: Seu Pokémon Home privado no Umbrel
+
+icon: https://raw.githubusercontent.com/Chnapy/PKVault/main/img/logo-social.png
+
+category: Utilities
+
+version: "2.1.0"
+
+port: 3000
+
+description: >-
+  PKVault é um sistema de armazenamento e gerenciamento de Pokémon baseado
+  no PKHeX, com suporte a saves, boxes, variantes, Pokédex e manipulação
+  de Pokémon.
+
+developer: Richard Haddad
+
+website: https://github.com/Chnapy/PKVault
+
+repo: https://github.com/Chnapy/PKVault
+
+support: https://github.com/Chnapy/PKVault/issues
+
+dependencies: []
+
+path: ""
+
+gallery:
+  - https://raw.githubusercontent.com/Chnapy/PKVault/refs/heads/main/img/snap_storage.png
+  - https://raw.githubusercontent.com/Chnapy/PKVault/refs/heads/main/img/snap_storage_dark.png
+  - https://raw.githubusercontent.com/Chnapy/PKVault/refs/heads/main/img/snap_storage_details.png
+  - https://raw.githubusercontent.com/Chnapy/PKVault/refs/heads/main/img/snap_saves.png
+
+releaseNotes: >-
+  Initial Umbrel release based on PKVault 2.1.0.

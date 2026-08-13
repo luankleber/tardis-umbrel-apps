@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tardis-pkvault_app_1
+      APP_PORT: 3000
+
+  app:
+    image: ghcr.io/chnapy/pkvault:2.1.0
+    restart: unless-stopped
+    stop_grace_period: 1m
+
+    environment:
+      APP_UID: "1654"
+      LOG_FILE_COUNT_LIMIT: "10"
+      BACKUP_FILE_COUNT_LIMIT: "30"
+      PKVAULT_PATH: /pkvault
+
+    volumes:
+      - ${APP_DATA_DIR}/data:/pkvault
+      - ${APP_DATA_DIR}/saves:/data/saves
+      - ${APP_DATA_DIR}/other-saves:/data/other-saves
+      - ${APP_DATA_DIR}/external-pkms:/data/external-pkms
