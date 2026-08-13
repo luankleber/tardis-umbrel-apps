@@ -19,6 +19,6 @@ services:
 
     volumes:
       - ${APP_DATA_DIR}/data:/pkvault
-      - ${APP_DATA_DIR}/saves:/data/saves
+      - /home/umbrel/umbrel/app-data/syncthing/data/pkvault-saves:/data/saves
       - ${APP_DATA_DIR}/other-saves:/data/other-saves
       - ${APP_DATA_DIR}/external-pkms:/data/external-pkms
