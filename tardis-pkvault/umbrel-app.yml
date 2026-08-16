@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/luankleber/tardis-umbrel-apps/master/tar
 
 category: Utilities
 
-version: "2.1.0"
+version: "2.1.1"
 
 port: 3000
 
@@ -38,4 +38,8 @@ gallery:
   - https://raw.githubusercontent.com/Chnapy/PKVault/refs/heads/main/img/snap_saves.png
 
 releaseNotes: >-
-  Initial Umbrel release based on PKVault 2.1.0.
+  Correções:
+
+  - Corrigidos sprites de itens com defeito
+  - Corrigidos o desempenho de renderização e a rolagem da Pokédex
+  - Além disso, o PKVault está chegando ao Flathub!.
