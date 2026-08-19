@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   app:
-    image: ghcr.io/chnapy/pkvault:2.1.1
+    image: ghcr.io/chnapy/pkvault:2.1.2
     restart: unless-stopped
     stop_grace_period: 1m
 

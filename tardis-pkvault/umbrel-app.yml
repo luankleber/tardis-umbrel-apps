@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/luankleber/tardis-umbrel-apps/master/tar
 
 category: Utilities
 
-version: "2.1.1"
+version: "2.1.2"
 
 port: 3000
 
@@ -38,8 +38,11 @@ gallery:
   - https://raw.githubusercontent.com/Chnapy/PKVault/refs/heads/main/img/snap_saves.png
 
 releaseNotes: >-
-  Correções:
+  Novidades na versão 2.1.2
 
-  - Corrigidos sprites de itens com defeito
-  - Corrigidos o desempenho de renderização e a rolagem da Pokédex
-  - Além disso, o PKVault está chegando ao Flathub!.
+  - O logotipo do aplicativo foi alterado para atender às diretrizes das lojas (Flathub).
+  - Corrigido travamento ao executar via Steam como um jogo não pertencente à Steam.
+  - Corrigido problema de Pokédex vazia na ausência de arquivo de salvamento.
+  - Corrigido problema de indisponibilidade de jogos japoneses da 1ª Geração (G1).
+  - Detecção de idioma na primeira inicialização.
+  - Usuários de Linux: o PKVault agora está disponível no Flathub!
