@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/luankleber/tardis-umbrel-apps/master/tar
 
 category: Utilities
 
-version: "2.2.0"
+version: "2.3.0"
 
 port: 3000
 
@@ -38,24 +38,17 @@ gallery:
   - https://raw.githubusercontent.com/Chnapy/PKVault/refs/heads/main/img/snap_saves.png
 
 releaseNotes: >-
-  Novidades na versão 2.2.0
+  Novidades na versão 2.3.0
 
-  - Novo idioma: Chinês Tradicional.
+  -Esta versão foi focada principalmente nas novas opções de exportação para Android e macOS.
 
   Recursos:
 
-  - Adição de painel de edição para duplicatas de arquivos de save na página de saves
-  - Adição de opção de ordenação no painel de seleção de saves
-  - (Docker) Adição de ações de upload e exclusão de saves
-  - (Docker) Adição de explorador de arquivos para seleção de saves nas configurações
-  - Reformulação de partes da página de configurações
-  - Correções:
+  - Novo idioma: Italiano.
 
-  - Correção de travamento em alguns sistemas com GPU Nvidia
-  - Correção de travamento causado por timeouts do GitHub
-  - Correção da deseleção após múltiplas liberações (releases)
-  - Correção da liberação de múltiplas variantes
-  - Correção de irregularidades pós-conversão (versão, fitas, EVs)
-  - Correção do erro "Espécie incompatível" após a ação de mover em alguns saves
-  - Correção de falha visual na Pokédex após a ação de mover
-  - Correção na ação de reinício (fresh-start) do save, surgida na versão 2.1.2
+  Correções:
+
+  - Correção de conflitos entre arquivos de save quando OT, TID e SID são iguais
+  - Correção da sincronização interrompida quando um Pokémon bebê evolui no arquivo de save
+  - Correção de algumas fitas que não eram exibidas
+  - Correção de erro ao carregar Pokémon com marcações ilegais
