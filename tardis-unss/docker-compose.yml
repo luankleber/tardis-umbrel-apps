@@ -17,6 +17,9 @@ services:
       - "--port"
       - "8990"
 
+    ports:
+      - "8991:8990"
+
     volumes:
       - ${APP_DATA_DIR}/savedata:/app/savedata
       - ${APP_DATA_DIR}/metadata.sqlite:/app/metadata.sqlite
