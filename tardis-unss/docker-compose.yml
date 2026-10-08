@@ -7,7 +7,7 @@ services:
       APP_PORT: 8990
 
   app:
-    image: unss-server:20250501
+    image: ghcr.io/prodeveloper0/unss-server:latest
     restart: unless-stopped
     stop_grace_period: 1m
 
