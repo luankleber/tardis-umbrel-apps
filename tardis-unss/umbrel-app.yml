@@ -4,7 +4,7 @@ id: tardis-unss
 
 name: uNSS
 
-tagline: Sincronização automática de saves do Nintendo Switch
+tagline: Sincronização de saves do Nintendo Switch
 
 icon: https://raw.githubusercontent.com/luankleber/tardis-umbrel-apps/master/tardis-unss/icon.png
 
@@ -12,12 +12,12 @@ category: Utilities
 
 version: "1.0.0"
 
-port: 8989
+port: 8990
 
 description: >-
   uNX Save Sync (uNSS) é um servidor de sincronização de saves para
-  Nintendo Switch. Permite armazenar e sincronizar backups de saves
-  entre consoles através de um servidor central na rede.
+  Nintendo Switch, permitindo armazenar e sincronizar saves através
+  de um servidor central.
 
 developer: prodeveloper0
 
@@ -36,8 +36,7 @@ gallery: []
 releaseNotes: >-
   Primeira versão do uNSS para Umbrel.
 
-  - Servidor uNSS hospedado localmente
+  - Servidor uNSS para Nintendo Switch
   - Armazenamento persistente dos saves
   - Banco de dados persistente
-  - Acesso pela dashboard do Umbrel
-  - Compatível com sincronização de saves do Nintendo Switch
+  - Porta configurada para 8990

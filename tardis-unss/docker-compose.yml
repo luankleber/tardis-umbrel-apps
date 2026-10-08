@@ -1,17 +1,22 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
       APP_HOST: tardis-unss_app_1
-      APP_PORT: 8989
+      APP_PORT: 8990
 
   app:
-    image: ghcr.io/prodeveloper0/unss-server:latest
+    image: unss-server:20250501
     restart: unless-stopped
     stop_grace_period: 1m
 
+    command:
+      - "--host"
+      - "0.0.0.0"
+      - "--port"
+      - "8990"
+
     volumes:
-      - ${APP_DATA_DIR}/data:/app/savedata
+      - ${APP_DATA_DIR}/savedata:/app/savedata
       - ${APP_DATA_DIR}/metadata.sqlite:/app/metadata.sqlite
